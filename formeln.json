@@ -1,0 +1,3448 @@
+[
+  {
+    "slug": "shannon-entropie",
+    "name": "Shannon-Entropie",
+    "latex": "H(X) = -\\sum_{i=1}^{n} p_i \\log_2 p_i",
+    "symbol": "H(X) = −Σ pᵢ log₂(pᵢ)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Informationstheorie",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "H(X)",
+        "bedeutung": "Entropie der Zufallsvariable X",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "pᵢ",
+        "bedeutung": "Wahrscheinlichkeit des Ergebnisses i",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl möglicher Ergebnisse",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 6.02 Introduction to EECS II: Digital Communication Systems, Chapter 2 “Information, Entropy, and the Motivation for Source Codes”."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/4bcb4b872e8e98459ce71e77d4fe9c42_MIT6_02F12_chap02.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/shannon-entropie"
+  },
+  {
+    "slug": "f1-score",
+    "name": "F₁-Score",
+    "latex": "F_1 = \\frac{2\\,TP}{2\\,TP + FP + FN}",
+    "symbol": "F₁ = 2TP / (2TP + FP + FN)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "TP",
+        "bedeutung": "Richtig positiv klassifizierte Beispiele",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FP",
+        "bedeutung": "Fälschlich positiv klassifizierte Beispiele",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FN",
+        "bedeutung": "Übersehene positive Beispiele",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "Precision",
+        "bedeutung": "\\(\\frac{TP}{(TP+FP)}\\), Anteil richtiger positiver Vorhersagen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "Recall",
+        "bedeutung": "\\(\\frac{TP}{(TP+FN)}\\), Anteil gefundener positiver Fälle",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "scikit-learn, User Guide: “Classification metrics”, F-measure and averaging."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/f1-score"
+  },
+  {
+    "slug": "big-o-notation",
+    "name": "Big-O-Notation (asymptotische obere Schranke)",
+    "latex": "f(n) \\in O(g(n)) \\iff \\exists c>0,n_0: \\forall n\\ge n_0,\\ |f(n)|\\le c|g(n)|",
+    "symbol": "f(n) ∈ O(g(n))",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Algorithmenanalyse",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "f(n)",
+        "bedeutung": "Zu analysierende Laufzeit- oder Speicherfunktion",
+        "einheit": "Operationen oder Speicherbedarf"
+      },
+      {
+        "symbol": "g(n)",
+        "bedeutung": "Vergleichsfunktion als asymptotische obere Schranke",
+        "einheit": "gleiche Größe wie f"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Positive, von n unabhängige Konstante",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "n₀",
+        "bedeutung": "Schwelle, ab der die Schranke gelten muss",
+        "einheit": "Problemgröße"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 6.046J Introduction to Algorithms, Lecture 2: “Asymptotic Notation; Recurrences; Substitution, Master Method”."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-2-asymptotic-notation-recurrences-substitution-master-method/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/big-o-notation"
+  },
+  {
+    "slug": "zweierkomplement",
+    "name": "Zweierkomplement (vorzeichenbehaftete Binärzahl)",
+    "latex": "x=-b_{N-1}2^{N-1}+\\sum_{i=0}^{N-2}b_i2^i",
+    "symbol": "x = −bₙ₋₁·2ⁿ⁻¹ + Σ bᵢ·2ⁱ",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Zahlendarstellung",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "N",
+        "bedeutung": "Bitbreite des Wortes",
+        "einheit": "Bits"
+      },
+      {
+        "symbol": "bᵢ",
+        "bedeutung": "Dimensionsloses Bit an Position i; sein Wertebereich ist {0,1}",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "x",
+        "bedeutung": "Dimensionsloser ganzzahliger Dezimalwert des Zweierkomplement-Wortes",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 6.004 Computation Structures, §1.1 “Annotated Slides”."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c1/c1s1/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/zweierkomplement"
+  },
+  {
+    "slug": "laufzeitrekurrenz",
+    "name": "Teile-und-herrsche-Laufzeitrekurrenz",
+    "latex": "T(n)=aT(n/b)+f(n), \\quad T(1)=\\Theta(1)",
+    "symbol": "T(n) = aT(n/b) + f(n)",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Algorithmenanalyse",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "T(n)",
+        "bedeutung": "Gesamtaufwand für ein Problem der Größe n",
+        "einheit": "Operationen"
+      },
+      {
+        "symbol": "a",
+        "bedeutung": "Anzahl rekursiver Teilaufrufe",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Faktor, um den sich die Problemgröße pro Ebene verkleinert",
+        "einheit": "dimensionslos, b>1"
+      },
+      {
+        "symbol": "f(n)",
+        "bedeutung": "Nichtrekursive Arbeit eines Aufrufs der Größe n",
+        "einheit": "Operationen"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 6.006 Introduction to Algorithms, Recitation 3: “Recurrences”."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/1869dbf640ded6b31f1bd369d2001ef5_MIT6_006S20_r03.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/laufzeitrekurrenz"
+  },
+  {
+    "slug": "kreuzentropie",
+    "name": "Kreuzentropie (Klassifikationsverlust)",
+    "latex": "H(p,q)=-\\sum_{i=1}^{K}p_i\\ln q_i",
+    "symbol": "H(p,q) = −Σ pᵢ ln(qᵢ)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "pᵢ",
+        "bedeutung": "Zielwahrscheinlichkeit der Klasse i",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "qᵢ",
+        "bedeutung": "Vom Modell vorhergesagte Wahrscheinlichkeit für Klasse i",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Anzahl der Klassen",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn, `log_loss`: binary log loss and cross-entropy definition."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kreuzentropie"
+  },
+  {
+    "slug": "gradientenabstieg-parameterupdate",
+    "name": "Gradientenabstieg (Parameterupdate)",
+    "latex": "\\theta_{t+1}=\\theta_t-\\eta\\nabla J(\\theta_t)",
+    "symbol": "θₜ₊₁ = θₜ − η∇J(θₜ)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "θₜ",
+        "bedeutung": "Parametervektor in Iteration t",
+        "einheit": "modellabhängig"
+      },
+      {
+        "symbol": "η",
+        "bedeutung": "Schrittweite beziehungsweise Lernrate",
+        "einheit": "passend zur Parametrisierung"
+      },
+      {
+        "symbol": "∇J(θₜ)",
+        "bedeutung": "Komponentenweise Ableitung der Zielfunktion nach dem jeweiligen Parameter θᵢ",
+        "einheit": "Einheit J / Einheit θᵢ"
+      },
+      {
+        "symbol": "J",
+        "bedeutung": "Zu minimierende differenzierbare Zielfunktion",
+        "einheit": "modellabhängig"
+      }
+    ],
+    "quellen": [
+      "scikit-learn, User Guide, “Stochastic Gradient Descent”."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/sgd.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/gradientenabstieg-parameterupdate"
+  },
+  {
+    "slug": "balanced-accuracy",
+    "name": "Ausgewogene Genauigkeit (Balanced Accuracy)",
+    "latex": "\\mathrm{BA}=\\frac{1}{2}\\left(\\frac{TP}{TP+FN}+\\frac{TN}{TN+FP}\\right)",
+    "symbol": "BA = (TPR + TNR)/2",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "TP",
+        "bedeutung": "Richtig positive Vorhersagen",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FN",
+        "bedeutung": "Übersehene positive Beispiele",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "TN",
+        "bedeutung": "Richtig negative Vorhersagen",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FP",
+        "bedeutung": "Fälschlich positive Vorhersagen",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn, Model Evaluation Guide, “Balanced accuracy score”."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/model_evaluation.html#balanced-accuracy-score"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/balanced-accuracy"
+  },
+  {
+    "slug": "precision-positivvorhersagewert",
+    "name": "Precision (positiver Vorhersagewert)",
+    "latex": "\\mathrm{Precision}=\\frac{TP}{TP+FP}",
+    "symbol": "Precision = TP/(TP+FP)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "TP",
+        "bedeutung": "Richtig positive Vorhersagen",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FP",
+        "bedeutung": "Fälschlich positive Vorhersagen",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, Precision, recall and F-measures."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/precision-positivvorhersagewert"
+  },
+  {
+    "slug": "recall-sensitivitaet",
+    "name": "Recall (Sensitivität)",
+    "latex": "\\mathrm{Recall}=\\frac{TP}{TP+FN}",
+    "symbol": "Recall = TP/(TP+FN)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "TP",
+        "bedeutung": "Richtig positive Vorhersagen",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FN",
+        "bedeutung": "Übersehene positive Fälle",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, Precision, recall and F-measures."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/recall-sensitivitaet"
+  },
+  {
+    "slug": "matthews-korrelationskoeffizient",
+    "name": "Matthews-Korrelationskoeffizient (MCC)",
+    "latex": "\\mathrm{MCC}=\\frac{TP\\,TN-FP\\,FN}{\\sqrt{(TP+FP)(TP+FN)(TN+FP)(TN+FN)}}",
+    "symbol": "MCC = (TP·TN − FP·FN)/√…",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "TP",
+        "bedeutung": "Richtig positive Fälle",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "TN",
+        "bedeutung": "Richtig negative Fälle",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FP",
+        "bedeutung": "Falsch positive Fälle",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FN",
+        "bedeutung": "Falsch negative Fälle",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, Matthews correlation coefficient."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/model_evaluation.html#matthews-correlation-coefficient"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/matthews-korrelationskoeffizient"
+  },
+  {
+    "slug": "hamming-distanz-bitfolgen",
+    "name": "Hamming-Distanz von Bitfolgen",
+    "latex": "d_H(x,y)=\\sum_{i=1}^{n}\\mathbf{1}[x_i\\ne y_i]",
+    "symbol": "dH(x,y) = Zahl unterschiedlicher Stellen",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Codierung und digitale Kommunikation",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "x,y",
+        "bedeutung": "Zwei gleich lange Wörter über demselben Alphabet",
+        "einheit": "Bitfolgen oder Symbole"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Wortlänge",
+        "einheit": "Stellen"
+      },
+      {
+        "symbol": "1[·]",
+        "bedeutung": "Indikator: 1 bei wahrer Bedingung, sonst 0",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.02, Chapter 5: Coping with Bit Errors using Error Correction Codes."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/1cc286051b660feded4d17650bd21d61_MIT6_02F12_chap05.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hamming-distanz-bitfolgen"
+  },
+  {
+    "slug": "ieee-754-gleitkomma",
+    "name": "IEEE-754-Gleitkommadarstellung und Rundung",
+    "latex": "x=(-1)^s\\begin{cases}(1+f)2^{E-b},&0<E<2^w-1\\\\f2^{1-b},&E=0\\end{cases}",
+    "symbol": "x = (−1)ˢ · Signifikand · 2ᵉ",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Zahlendarstellung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "s",
+        "bedeutung": "Vorzeichenbit",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Kodiertes Exponentenfeld",
+        "einheit": "Bitmuster"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Exponent-Bias des Formats",
+        "einheit": "Ganzzahl"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Ganzzahliges Fraction-Feld",
+        "einheit": "Bitmuster"
+      },
+      {
+        "symbol": "f",
+        "bedeutung": "Fraction-Wert F/2ᵗ",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "w,t",
+        "bedeutung": "Breite von Exponent und Fraction",
+        "einheit": "Bits"
+      }
+    ],
+    "quellen": [
+      "IEEE Std 754-2019, Standard for Floating-Point Arithmetic; format fields and rounding-direction attributes."
+    ],
+    "quellenLinks": [
+      "https://standards.ieee.org/ieee/754/6210/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/ieee-754-gleitkomma"
+  },
+  {
+    "slug": "boolesche-algebra-gesetze",
+    "name": "Boolesche Algebra: Identitäten und De-Morgan-Gesetze",
+    "latex": "\\neg(A\\land B)=\\neg A\\lor\\neg B,\\quad\\neg(A\\lor B)=\\neg A\\land\\neg B",
+    "symbol": "¬(A∧B)=¬A∨¬B; ¬(A∨B)=¬A∧¬B",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Logik und digitale Schaltungen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "A,B,C",
+        "bedeutung": "Boolesche Eingangsvariablen",
+        "einheit": "Wahrheitswert 0 oder 1"
+      },
+      {
+        "symbol": "∧",
+        "bedeutung": "Logisches UND",
+        "einheit": "Operation"
+      },
+      {
+        "symbol": "∨",
+        "bedeutung": "Logisches ODER",
+        "einheit": "Operation"
+      },
+      {
+        "symbol": "¬",
+        "bedeutung": "Logisches NICHT",
+        "einheit": "Operation"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 6.004 Computation Structures, C4: Boolean Equations and Logic."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c4/c4s1/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/boolesche-algebra-gesetze"
+  },
+  {
+    "slug": "euklidischer-algorithmus-modulares-inverses",
+    "name": "Euklidischer Algorithmus und modulares Inverses",
+    "latex": "\\gcd(a,m)=\\gcd(m,a\\bmod m),\\quad ax+my=\\gcd(a,m)",
+    "symbol": "gcd(a,m)=1 ⇔ a⁻¹ mod m existiert",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Diskrete Mathematik und Kryptographie",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "a,m",
+        "bedeutung": "Ganzzahl und positiver Modul m",
+        "einheit": "ganze Zahl; m>0"
+      },
+      {
+        "symbol": "gcd(a,m)",
+        "bedeutung": "Größter gemeinsamer Teiler",
+        "einheit": "ganze Zahl"
+      },
+      {
+        "symbol": "x,y",
+        "bedeutung": "Bézout-Koeffizienten",
+        "einheit": "ganze Zahl"
+      },
+      {
+        "symbol": "a⁻¹ mod m",
+        "bedeutung": "Multiplikatives Inverses als Restklasse",
+        "einheit": "modulo m"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare, 6.042J Mathematics for Computer Science, complete course notes, modular arithmetic and multiplicative inverses."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/93cad640cf3ed0b23ef70688f452d4d5_MIT6_042JF10_notes.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/euklidischer-algorithmus-modulares-inverses"
+  },
+  {
+    "slug": "shannon-kanalkapazitaet",
+    "name": "Shannon-Hartley-Kanalkapazität",
+    "latex": "C=B\\log_2(1+S/N)",
+    "symbol": "C = B·log₂(1+SNR)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Informationstheorie",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "C",
+        "bedeutung": "Theoretische Kanalkapazität",
+        "einheit": "bit/s"
+      },
+      {
+        "symbol": "B",
+        "bedeutung": "Kanalbandbreite",
+        "einheit": "Hz"
+      },
+      {
+        "symbol": "S/N",
+        "bedeutung": "Empfangsleistungs-Signal-Rausch-Verhältnis",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "C. E. Shannon, A Mathematical Theory of Communication, §25, Theorem17",
+      "NIST Guide to the SI, Chapter5, logarithmic power ratios"
+    ],
+    "quellenLinks": [
+      "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/shannon-kanalkapazitaet"
+  },
+  {
+    "slug": "amdahl-gesetz-speedup",
+    "name": "Amdahlsches Gesetz (Parallel-Speedup)",
+    "latex": "S_N=\\frac{1}{(1-P)+P/N}",
+    "symbol": "Sₙ = 1/((1−P)+P/N)",
+    "kategorie": "informatik",
+    "kapitel": "info-rechnerleistung",
+    "unterkategorie": "Parallelrechnen und Leistung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Sₙ",
+        "bedeutung": "Speedup gegenüber einer Prozessoreinheit",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "P",
+        "bedeutung": "Anteil des Programms, der parallelisiert werden kann",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "Anzahl gleich schneller Verarbeitungseinheiten",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "Stanford University CS 245, Distributed Systems, Lecture 16: Amdahl’s Law."
+    ],
+    "quellenLinks": [
+      "https://web.stanford.edu/class/cs245/spr2019/slides/16-Distributed-p2.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/amdahl-gesetz-speedup"
+  },
+  {
+    "slug": "cpu-laufzeit-instruktionen-cpi-takt",
+    "name": "CPU-Laufzeit aus Instruktionen, CPI und Takt",
+    "latex": "T_{CPU}=I\\cdot CPI\\cdot t_{CLK}=\\frac{I\\cdot CPI}{f_{CLK}}",
+    "symbol": "TCPU = I·CPI/fCLK",
+    "kategorie": "informatik",
+    "kapitel": "info-rechnerleistung",
+    "unterkategorie": "Rechnerarchitektur und Leistung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "TCPU",
+        "bedeutung": "Ausführungszeit des CPU-Programms",
+        "einheit": "s"
+      },
+      {
+        "symbol": "I",
+        "bedeutung": "Tatsächlich ausgeführte Instruktionen",
+        "einheit": "Instruktionen"
+      },
+      {
+        "symbol": "CPI",
+        "bedeutung": "Mittlere Taktzyklen pro Instruktion",
+        "einheit": "Zyklen/Instruktion"
+      },
+      {
+        "symbol": "fCLK",
+        "bedeutung": "Taktfrequenz",
+        "einheit": "Hz"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.004, Computation Structures, Section 15.1: Processor Performance."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c15/c15s1/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/cpu-laufzeit-instruktionen-cpi-takt"
+  },
+  {
+    "slug": "logistische-sigmoidfunktion",
+    "name": "Logistische Sigmoidfunktion",
+    "latex": "\\sigma(z)=\\frac{1}{1+e^{-z}}",
+    "symbol": "σ(z) = 1/(1+e⁻ᶻ)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "z",
+        "bedeutung": "Reeller Logit beziehungsweise Eingabewert",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "σ(z)",
+        "bedeutung": "Logistische Sigmoid-Ausgabe",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "SciPy API Reference, scipy.special.expit (logistic sigmoid)."
+    ],
+    "quellenLinks": [
+      "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.expit.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/logistische-sigmoidfunktion"
+  },
+  {
+    "slug": "a-star-suche",
+    "name": "A*-Suche",
+    "latex": "f(n)=g(n)+h(n)",
+    "symbol": "f = bisherige Kosten + Heuristik",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "g(n)",
+        "bedeutung": "Kosten des bisher bekannten Pfads vom Start bis n",
+        "einheit": "Pfadkosten"
+      },
+      {
+        "symbol": "h(n)",
+        "bedeutung": "Heuristische Schätzung der Kosten von n bis zum Ziel",
+        "einheit": "Pfadkosten"
+      },
+      {
+        "symbol": "f(n)",
+        "bedeutung": "Prioritätswert für die Auswahl des nächsten Knotens",
+        "einheit": "Pfadkosten"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.034, Search: A* search and admissible heuristics.",
+      "ACM/IEEE-CS/AAAI CS2023, AL Core: graph algorithms and informed search."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/resources/lecture-4-search/",
+      "https://csed.acm.org/al-cs-core/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/a-star-suche"
+  },
+  {
+    "slug": "master-theorem-rekurrenzen",
+    "name": "Master-Theorem für Rekurrenzen",
+    "latex": "T(n)=aT(n/b)+\\Theta(n^d(\\log n)^k)",
+    "symbol": "T(n) = aT(n/b) + f(n)",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Algorithmenanalyse",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "a",
+        "bedeutung": "Anzahl gleich großer Teilprobleme",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Faktor, um den die Teilproblemgröße sinkt",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "f(n)",
+        "bedeutung": "Zusätzliche Arbeit pro Rekursionsebene",
+        "einheit": "Aufwand"
+      },
+      {
+        "symbol": "p=log_b a",
+        "bedeutung": "Exponent der rekursiven Blätterarbeit",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.046J, Recitation 1: Master Theorem.",
+      "ACM/IEEE-CS/AAAI CS2023, AL Core: algorithm analysis and recurrences."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/download/",
+      "https://csed.acm.org/al-cs-core/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/master-theorem-rekurrenzen"
+  },
+  {
+    "slug": "amortisierungsanalyse-dynamische-arrays",
+    "name": "Amortisierte Analyse dynamischer Arrays",
+    "latex": "\\widehat c_i=c_i+\\Phi_i-\\Phi_{i-1}",
+    "symbol": "amortisierte Kosten = reale Kosten + Potentialänderung",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Algorithmenanalyse",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "cᵢ",
+        "bedeutung": "Reale Kosten der i-ten Operation",
+        "einheit": "Operationen oder Kosten"
+      },
+      {
+        "symbol": "Φᵢ",
+        "bedeutung": "Potential nach der i-ten Operation",
+        "einheit": "Kostenpotential"
+      },
+      {
+        "symbol": "ĉᵢ",
+        "bedeutung": "Amortisierte Kosten der i-ten Operation",
+        "einheit": "Kosten"
+      },
+      {
+        "symbol": "i",
+        "bedeutung": "Position in einer Operationsfolge",
+        "einheit": "Index"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.046J, Lecture Notes: Amortized Analysis.",
+      "ACM/IEEE-CS/AAAI CS2023, AL Core: amortized analysis."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/resources/lecture-notes/",
+      "https://csed.acm.org/al-cs-core/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/amortisierungsanalyse-dynamische-arrays"
+  },
+  {
+    "slug": "union-find-disjunkte-mengen",
+    "name": "Union-Find (Disjoint Set Union)",
+    "latex": "\\text{find}(x)=\\text{repräsentant}(x),\\quad \\text{union}(x,y): S_x\\cup S_y",
+    "symbol": "Finde Repräsentant; vereinige Mengen",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Datenstrukturen und Graphen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "find(x)",
+        "bedeutung": "Liefert den Repräsentanten der Menge von x",
+        "einheit": "Elementkennung"
+      },
+      {
+        "symbol": "union(x,y)",
+        "bedeutung": "Vereinigt die Mengen von x und y",
+        "einheit": "Mengenoperation"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl aller Elemente",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "α(n)",
+        "bedeutung": "Sehr langsam wachsende inverse Ackermann-Funktion",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "Tarjan, Efficiency of a Good But Not Linear Set Union Algorithm, Journal of the ACM 22(2), 1975.",
+      "ACM/IEEE-CS/AAAI CS2023, AL Core: disjoint-set data structures."
+    ],
+    "quellenLinks": [
+      "https://doi.org/10.1145/321879.321884",
+      "https://csed.acm.org/al-cs-core/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/union-find-disjunkte-mengen"
+  },
+  {
+    "slug": "floyd-warshall-kuerzeste-wege",
+    "name": "Floyd-Warshall-Algorithmus",
+    "latex": "D_{ij}^{(k)}=\\min(D_{ij}^{(k-1)},D_{ik}^{(k-1)}+D_{kj}^{(k-1)})",
+    "symbol": "Dᵢⱼ ← min(Dᵢⱼ, Dᵢₖ + Dₖⱼ)",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Dᵢⱼ",
+        "bedeutung": "Aktuell beste Distanz von i nach j",
+        "einheit": "Kantengewichtssumme"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Index des neu zugelassenen Zwischenknotens",
+        "einheit": "Knotenindex"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Knotenmenge des Graphen",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "Princeton Algorithms, §4.4: Shortest Paths and Floyd–Warshall.",
+      "ACM/IEEE-CS/AAAI CS2023, AL Core: all-pairs shortest paths."
+    ],
+    "quellenLinks": [
+      "https://algs4.cs.princeton.edu/44sp/",
+      "https://csed.acm.org/al-cs-core/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/floyd-warshall-kuerzeste-wege"
+  },
+  {
+    "slug": "avl-baum-balance",
+    "name": "AVL-Baum: Balancebedingung und Höhe",
+    "latex": "|h_L-h_R|\\le 1",
+    "symbol": "Balancefaktor = hL − hR ∈ {−1,0,1}",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Datenstrukturen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "hL,hR",
+        "bedeutung": "Höhen des linken und rechten Teilbaums",
+        "einheit": "Ebenen"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl gespeicherter Schlüssel",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "BF",
+        "bedeutung": "Balancefaktor hL−hR",
+        "einheit": "Ebenen"
+      }
+    ],
+    "quellen": [
+      "OpenDSA, AVL Trees, section 26.2.",
+      "ACM/IEEE-CS/AAAI CS2023, AL Core: balanced search trees."
+    ],
+    "quellenLinks": [
+      "https://opendsa-server.cs.vt.edu/ODSA/Books/pubbook/odsa-all-0013bb43-a12f-4ab3-9b86-73b317f1e37e/fall-2017/Public_1092017/html/AVL.html",
+      "https://csed.acm.org/al-cs-core/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/avl-baum-balance"
+  },
+  {
+    "slug": "bellman-ford-kuerzeste-wege-negative-kanten",
+    "name": "Bellman-Ford-Algorithmus für kürzeste Wege",
+    "latex": "d_k(v)=\\min\\left(d_{k-1}(v),\\min_{(u,v)\\in E}[d_{k-1}(u)+w(u,v)]\\right)",
+    "symbol": "dk(v) = min(dk−1(v), dk−1(u)+w(u,v))",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphalgorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "dk(v)",
+        "bedeutung": "Kürzeste bekannte Distanz von Quelle s zu v mit höchstens k Kanten",
+        "einheit": "Gewichtseinheit"
+      },
+      {
+        "symbol": "w(u,v)",
+        "bedeutung": "Gewicht der gerichteten Kante von u nach v",
+        "einheit": "Gewichtseinheit"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Menge gerichteter Kanten des Graphen",
+        "einheit": "Kanten"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Zahl der bereits erlaubten Kanten im betrachteten Weg",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "V",
+        "bedeutung": "Knotenmenge des Graphen",
+        "einheit": "Knoten"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.006, Introduction to Algorithms, Lecture 17: Shortest Paths III, Bellman-Ford."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-17-bellman-ford/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bellman-ford-kuerzeste-wege-negative-kanten"
+  },
+  {
+    "slug": "dijkstra-kuerzeste-wege",
+    "name": "Dijkstra-Algorithmus für gewichtete kürzeste Wege",
+    "latex": "\\delta(s,v)=\\min_{p:s\\leadsto v}\\sum_{e\\in p}w(e),\\quad d(v)\\gets\\min(d(v),d(u)+w(u,v))",
+    "symbol": "Kürzester Pfad: min Σw(e); Relaxation: d(v) ← min(d(v), d(u)+w(u,v))",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "G=(V,E)",
+        "bedeutung": "Endlicher gerichteter oder ungerichteter Graph",
+        "einheit": "Knoten und Kanten"
+      },
+      {
+        "symbol": "w(u,v)",
+        "bedeutung": "Nichtnegatives Gewicht der Kante von u nach v",
+        "einheit": "Kosten je Kante"
+      },
+      {
+        "symbol": "s,v",
+        "bedeutung": "Startknoten und Zielknoten",
+        "einheit": "Knoten"
+      },
+      {
+        "symbol": "δ(s,v)",
+        "bedeutung": "Kleinste Summe der Kantengewichte auf einem Weg von s nach v",
+        "einheit": "Pfadkosten"
+      },
+      {
+        "symbol": "d(v)",
+        "bedeutung": "Aktuell beste bekannte obere Schranke für δ(s,v)",
+        "einheit": "Pfadkosten"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.006, Lecture 13: Dijkstra’s Algorithm."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/mit6_006s20_lec13/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/dijkstra-kuerzeste-wege"
+  },
+  {
+    "slug": "minimaler-spannbaum",
+    "name": "Minimaler Spannbaum",
+    "latex": "T^*\\in\\arg\\min_{T\\in\\mathcal T(G)}\\sum_{e\\in T}w(e),\\quad |E(T^*)|=|V|-1",
+    "symbol": "Verbinde alle Knoten mit minimaler Gesamtgewichtssumme und |V|−1 Kanten.",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "G=(V,E)",
+        "bedeutung": "Zusammenhängender ungerichteter Graph",
+        "einheit": "Knoten und Kanten"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Spannbaum, der alle Knoten ohne Kreis verbindet",
+        "einheit": "Kantenmenge"
+      },
+      {
+        "symbol": "w(e)",
+        "bedeutung": "Gewicht der Kante e",
+        "einheit": "Kosten je Kante"
+      },
+      {
+        "symbol": "T*",
+        "bedeutung": "Spannbaum mit kleinster Gesamtgewichtssumme",
+        "einheit": "Kantenmenge"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.046J, Lectures 3–4: Minimum Spanning Trees I–II."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2012/resources/lecture-notes/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/minimaler-spannbaum"
+  },
+  {
+    "slug": "binaersuche-laufzeit",
+    "name": "Binäre Suche: Vergleichszahl und Laufzeit",
+    "latex": "T(n)\\le\\lceil\\log_2(n+1)\\rceil,\\quad T(n)\\in O(\\log n)",
+    "symbol": "Höchstens ⌈log₂(n+1)⌉ Vergleiche bei sortierter Folge.",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Algorithmenanalyse",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl der Elemente in der sortierten Folge",
+        "einheit": "Elemente"
+      },
+      {
+        "symbol": "T(n)",
+        "bedeutung": "Maximale Zahl der Schlüsselvergleiche bis zum Fund oder bis zum Ausschluss",
+        "einheit": "Vergleiche"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.006, Recitation 1: asymptotic complexity and binary search in sorted arrays."
+    ],
+    "quellenLinks": [
+      "https://live.ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/c6d8f06c6f11e3342633dec85498f551_MIT6_006S20_r01.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/binaersuche-laufzeit"
+  },
+  {
+    "slug": "kombinatorische-zaehlregeln",
+    "name": "Kombinatorische Zählregeln und Inklusion-Exklusion",
+    "latex": "\\binom{n}{k}=\\frac{n!}{k!(n-k)!},\\quad |A\\cup B|=|A|+|B|-|A\\cap B|,\\quad |\\bigcup_i A_i|=\\sum_{\\emptyset\\ne S\\subseteq[n]}(-1)^{|S|+1}|\\bigcap_{i\\in S}A_i|",
+    "symbol": "C(n,k)=n!/[k!(n−k)!]; |A∪B|=|A|+|B|−|A∩B|",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Algorithmen und diskrete Mathematik",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl verschiedener verfügbarer Elemente",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Anzahl ausgewählter Elemente, \\(0\\le{}k\\le{}n\\)",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "binom(n,k)",
+        "bedeutung": "Anzahl ungeordneter Auswahlen ohne Wiederholung",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "Aᵢ",
+        "bedeutung": "Endliche Mengen, deren Vereinigung gezählt wird",
+        "einheit": "Menge"
+      },
+      {
+        "symbol": "|A|",
+        "bedeutung": "Mächtigkeit einer endlichen Menge A",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.042J, Mathematics for Computer Science, Lecture 17: Inclusion–Exclusion and counting.",
+      "CS2023 Final Report, Mathematical and Statistical Foundations (MSF), Discrete Mathematics: counting and inclusion–exclusion (Curriculumsbeleg, keine Formelquelle)."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/545c0e4f7df07d15c4fbf6d3d0ed77dc_09yIb3VHhMI.pdf",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kombinatorische-zaehlregeln"
+  },
+  {
+    "slug": "graphsuche-bfs-dfs-kuerzeste-wege",
+    "name": "Graphsuche: BFS, DFS und kürzeste Wege",
+    "latex": "\\begin{gathered}d(s,v)=\\min_{p:s\\leadsto v}|p|\\\\T_{BFS},T_{DFS}=O(|V|+|E|)\\end{gathered}",
+    "symbol": "BFS: Distanzschichten und kürzeste Wege; BFS/DFS: O(|V|+|E|)",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphen und Algorithmen",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "G=(V,E)",
+        "bedeutung": "Endlicher Graph mit Knotenmenge V und Kantenmenge E",
+        "einheit": "Knoten und Kanten"
+      },
+      {
+        "symbol": "s,v",
+        "bedeutung": "Startknoten und erreichbarer Zielknoten",
+        "einheit": "Knoten"
+      },
+      {
+        "symbol": "d(s,v)",
+        "bedeutung": "Kleinste Kantenzahl eines Weges von s nach v",
+        "einheit": "Kanten"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Anzahl elementarer Suchoperationen bei Adjazenzlisten",
+        "einheit": "Operationen"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.006, Lecture 13: Breadth-First Search (BFS), Graph Representation and Shortest Paths.",
+      "TU Darmstadt, Informatik-Veranstaltungen im ersten Studienjahr: Algorithmen und Datenstrukturen mit Graphen, Traversierung und kürzesten Wegen (Curriculumsbeleg, keine Formelquelle)."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-13-breadth-first-search-bfs/",
+      "https://www.informatik.tu-darmstadt.de/studium_fb20/wissenssammlung_studium_details_10624.de.jsp"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/graphsuche-bfs-dfs-kuerzeste-wege"
+  },
+  {
+    "slug": "diffie-hellman-schluesselaustausch",
+    "name": "Diffie-Hellman-Schlüsselaustausch (Lehrmodell)",
+    "latex": "A=g^a\\bmod p,\\quad B=g^b\\bmod p,\\quad K_A=B^a\\bmod p=K_B=A^b\\bmod p=g^{ab}\\bmod p",
+    "symbol": "A=gᵃ mod p; B=gᵇ mod p; K=Bᵃ=Aᵇ mod p",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Kryptographie und Sicherheit",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p",
+        "bedeutung": "Primzahl, die den endlichen Körper beziehungsweise die Rechenmodulstruktur festlegt",
+        "einheit": "Ganzzahl"
+      },
+      {
+        "symbol": "g",
+        "bedeutung": "Öffentlich gewähltes Gruppenelement geeigneter Ordnung modulo p",
+        "einheit": "Restklasse modulo p"
+      },
+      {
+        "symbol": "a,b",
+        "bedeutung": "Geheime private Exponenten der beiden Parteien",
+        "einheit": "Ganzzahl"
+      },
+      {
+        "symbol": "A,B",
+        "bedeutung": "Öffentliche Werte gᵃ mod p und gᵇ mod p",
+        "einheit": "Restklasse modulo p"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Gemeinsamer modularer Gruppenwert vor Schlüsselableitung",
+        "einheit": "Restklasse modulo p"
+      }
+    ],
+    "quellen": [
+      "RFC 2631, Diffie-Hellman Key Agreement Method, §2.1.1: public values and shared secret (Gleichungsquelle; die Parameterempfehlungen sind historisch).",
+      "CS2023 Final Report, Security (SEC) Knowledge Area (Curriculumsbeleg, keine Formelquelle)."
+    ],
+    "quellenLinks": [
+      "https://www.rfc-editor.org/rfc/rfc2631.html#section-2.1.1",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/diffie-hellman-schluesselaustausch"
+  },
+  {
+    "slug": "softmax-funktion",
+    "name": "Softmax-Funktion",
+    "latex": "\\mathrm{softmax}(z)_i=\\frac{e^{z_i}}{\\sum_{j=1}^{K}e^{z_j}}",
+    "symbol": "softmax(z)i = eᶻⁱ/Σⱼeᶻʲ",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "zᵢ",
+        "bedeutung": "Score beziehungsweise Logit für Klasse i",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Anzahl der Klassen",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "softmax(z)ᵢ",
+        "bedeutung": "Normalisierter Ausgabewert der Klasse i",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "SciPy API Reference, scipy.special.softmax."
+    ],
+    "quellenLinks": [
+      "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.softmax.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/softmax-funktion"
+  },
+  {
+    "slug": "f-beta-score",
+    "name": "Fβ-Score (gewichtetes Precision-Recall-Maß)",
+    "latex": "F_\\beta=(1+\\beta^2)\\frac{PR}{\\beta^2P+R}",
+    "symbol": "Fβ = (1+β²)PR/(β²P+R)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "P",
+        "bedeutung": "Precision der festgelegten positiven Klasse",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "R",
+        "bedeutung": "Recall der festgelegten positiven Klasse",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "β",
+        "bedeutung": "Gewichtung; \\(\\beta{}>1\\) priorisiert Recall, \\(\\beta{}<1\\) Precision",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, Metrics and scoring: Precision, recall and F-measures"
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-and-f-measures"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/f-beta-score"
+  },
+  {
+    "slug": "mutuelle-information-diskret",
+    "name": "Gegenseitige Information diskreter Variablen",
+    "latex": "I(X;Y)=H(X)+H(Y)-H(X,Y)=H(X)-H(X|Y)",
+    "symbol": "I(X;Y) = H(X) − H(X|Y)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Informationstheorie",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "I(X;Y)",
+        "bedeutung": "Gegenseitige Information der Variablen X und Y",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "H(X), H(Y)",
+        "bedeutung": "Entropien der Randverteilungen",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "H(X,Y)",
+        "bedeutung": "Gemeinsame Entropie der Verteilung",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "H(X|Y)",
+        "bedeutung": "Bedingte Entropie von X nach Beobachtung von Y",
+        "einheit": "Bit"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.441, Information Theory, Chapter 2: Information Measures and Mutual Information."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-441-information-theory-spring-2016/184197ca5d5418da2415d37e929860b9_MIT6_441S16_chapter_2.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/mutuelle-information-diskret"
+  },
+  {
+    "slug": "logit-odds-transformation",
+    "name": "Logit-Transformation von Wahrscheinlichkeit und Odds",
+    "latex": "\\mathrm{logit}(p)=\\ln\\frac{p}{1-p}",
+    "symbol": "logit(p) = ln(p/(1−p))",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p",
+        "bedeutung": "Wahrscheinlichkeit mit \\(0<p<1\\)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "p/(1−p)",
+        "bedeutung": "Odds für das Ereignis",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "logit(p)",
+        "bedeutung": "Natürlicher Logarithmus der Odds",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "SciPy API Reference, scipy.special.logit."
+    ],
+    "quellenLinks": [
+      "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.logit.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/logit-odds-transformation"
+  },
+  {
+    "slug": "spezifitaet-true-negative-rate",
+    "name": "Spezifität (True Negative Rate)",
+    "latex": "\\text{Spezifität}=\\frac{TN}{TN+FP}",
+    "symbol": "TNR = TN/(TN+FP)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "TN",
+        "bedeutung": "Richtig negative Vorhersagen",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "FP",
+        "bedeutung": "Fälschlich positive Vorhersagen",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, Confusion matrix and classification metrics."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/model_evaluation.html#confusion-matrix"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/spezifitaet-true-negative-rate"
+  },
+  {
+    "slug": "jaccard-index-klassifikation",
+    "name": "Jaccard-Index (Intersection over Union)",
+    "latex": "J(A,B)=\\frac{|A\\cap B|}{|A\\cup B|}=\\frac{TP}{TP+FP+FN},\\qquad |A\\cup B|>0",
+    "symbol": "J = |A∩B|/|A∪B| = TP/(TP+FP+FN)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "A",
+        "bedeutung": "Menge der tatsächlichen Positiven auf der gemeinsamen Testmenge",
+        "einheit": "Menge (mathematisch)"
+      },
+      {
+        "symbol": "B",
+        "bedeutung": "Menge der positiv vorhergesagten Fälle auf derselben Testmenge",
+        "einheit": "Menge (mathematisch)"
+      },
+      {
+        "symbol": "TP, FP, FN",
+        "bedeutung": "Nichtnegative ganze Zählungen; ihre Summe muss positiv sein",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn: jaccard_score, set definition, aggregation and zero_division",
+      "scikit-learn: f1_score, binary count formula"
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.jaccard_score.html",
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/jaccard-index-klassifikation"
+  },
+  {
+    "slug": "durchschnittliche-speicherzugriffszeit-amat",
+    "name": "Durchschnittliche Speicherzugriffszeit (AMAT)",
+    "latex": "t_{AMAT}=t_{hit}+r_{miss}\\,t_{penalty}",
+    "symbol": "AMAT = HitTime + MissRate·MissPenalty",
+    "kategorie": "informatik",
+    "kapitel": "info-rechnerleistung",
+    "unterkategorie": "Rechnerarchitektur und Leistung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "tAMAT",
+        "bedeutung": "Mittlere Speicherzugriffszeit",
+        "einheit": "s"
+      },
+      {
+        "symbol": "thit",
+        "bedeutung": "Cache-Zugriffszeit, die jeder Zugriff bezahlt",
+        "einheit": "s"
+      },
+      {
+        "symbol": "rmiss",
+        "bedeutung": "Anteil der Zugriffe mit Cache-Miss",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "tpenalty",
+        "bedeutung": "Zusätzliche Miss-Zeit nach dem Cache-Zugriff",
+        "einheit": "s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.004, Memory Hierarchy & Caches Worksheet."
+    ],
+    "quellenLinks": [
+      "https://www.ocw.mit.edu/courses/6-004-computation-structures-spring-2017/e3780374f88b6201126fccda717635f7_caches_worksheet.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/durchschnittliche-speicherzugriffszeit-amat"
+  },
+  {
+    "slug": "bloom-filter-falschpositiv-wahrscheinlichkeit",
+    "name": "Bloom-Filter: Falsch-Positiv-Wahrscheinlichkeit",
+    "latex": "p_{FP}\\approx\\left(1-e^{-kn/m}\\right)^k",
+    "symbol": "pFP ≈ (1−e⁻ᵏⁿ/ᵐ)ᵏ",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Datenstrukturen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "pFP",
+        "bedeutung": "Wahrscheinlichkeit, ein nicht gespeichertes Element fälschlich als vorhanden zu melden",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Anzahl Bits im Filter",
+        "einheit": "Bits"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl eingefügter Elemente",
+        "einheit": "Elemente"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Anzahl unabhängiger Hashfunktionen",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "University of Illinois Urbana-Champaign CS 473, Lecture 12½: Bloom Filters."
+    ],
+    "quellenLinks": [
+      "https://courses.grainger.illinois.edu/cs473/sp2016/notes/12bis-bloom.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bloom-filter-falschpositiv-wahrscheinlichkeit"
+  },
+  {
+    "slug": "roc-auc-klassifikation",
+    "name": "ROC-AUC (Fläche unter der ROC-Kurve)",
+    "latex": "\\mathrm{AUC}=\\int_0^1 TPR(FPR)\\,dFPR",
+    "symbol": "AUC = ∫ TPR dFPR",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Klassifikation und Evaluation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "AUC",
+        "bedeutung": "Fläche unter der ROC-Kurve",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "TPR",
+        "bedeutung": "True Positive Rate beziehungsweise Recall",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "FPR",
+        "bedeutung": "False Positive Rate",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "scikit-learn API Reference, roc_auc_score."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/roc-auc-klassifikation"
+  },
+  {
+    "slug": "kullback-leibler-divergenz",
+    "name": "Kullback-Leibler-Divergenz (relative Entropie)",
+    "latex": "D_{KL}(p\\|q)=\\sum_i p_i\\ln\\frac{p_i}{q_i}",
+    "symbol": "DKL(p‖q) = Σ pᵢ ln(pᵢ/qᵢ)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Informationstheorie",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "pᵢ",
+        "bedeutung": "Wahre Wahrscheinlichkeit des Ergebnisses i",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "qᵢ",
+        "bedeutung": "Vergleichs- oder Modellwahrscheinlichkeit desselben Ergebnisses",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "DKL(p‖q)",
+        "bedeutung": "Relative Entropie von q gegenüber p",
+        "einheit": "nat"
+      }
+    ],
+    "quellen": [
+      "SciPy API Reference, scipy.stats.entropy (relative entropy)."
+    ],
+    "quellenLinks": [
+      "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kullback-leibler-divergenz"
+  },
+  {
+    "slug": "kosinus-aehnlichkeit-vektoren",
+    "name": "Kosinusähnlichkeit von Vektoren",
+    "latex": "\\operatorname{cosSim}(x,y)=\\frac{x\\cdot y}{\\|x\\|_2\\|y\\|_2},\\qquad x\\ne0,\\ y\\ne0",
+    "symbol": "cosSim(x,y) = (x·y)/(‖x‖₂‖y‖₂)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Datenanalyse und Suche",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "x, y",
+        "bedeutung": "Reelle Nichtnullvektoren gleicher Dimension; hier Koordinatenzahlen",
+        "einheit": "1"
+      },
+      {
+        "symbol": "x·y",
+        "bedeutung": "Summe der Produkte entsprechender Koordinaten",
+        "einheit": "1"
+      },
+      {
+        "symbol": "‖x‖₂, ‖y‖₂",
+        "bedeutung": "Positive euklidische Normen der beiden Vektoren",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "scikit-learn: cosine_similarity, normalized dot product"
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/kosinus-aehnlichkeit-vektoren"
+  },
+  {
+    "slug": "hashkollision-geburtstagswahrscheinlichkeit",
+    "name": "Hashkollision (Geburtstagswahrscheinlichkeit)",
+    "latex": "p=\\begin{cases}1-\\prod_{k=0}^{n-1}(1-k/M),&0\\le n\\le M,\\\\1,&n>M.\\end{cases}\\qquad M\\in\\mathbb N_{>0},\\ n\\in\\mathbb N_0",
+    "symbol": "Pcoll ≈ 1−exp(−n(n−1)/(2M))",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Datenstrukturen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Pcoll",
+        "bedeutung": "Wahrscheinlichkeit mindestens einer Kollision",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl unabhängig gehashter Elemente",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "M",
+        "bedeutung": "Größe des gleichverteilten Hashraums",
+        "einheit": "Anzahl möglicher Hashwerte"
+      }
+    ],
+    "quellen": [
+      "M. Bellare and P. Rogaway, Introduction to Modern Cryptography, AppendixA: The Birthday Problem"
+    ],
+    "quellenLinks": [
+      "https://www.cs.ucdavis.edu/~rogaway/classes/227/fall01/book/main.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hashkollision-geburtstagswahrscheinlichkeit"
+  },
+  {
+    "slug": "tf-idf-gewichtung",
+    "name": "TF-IDF-Termgewichtung",
+    "latex": "w_{t,d}=f(t,d)\\ln\\frac{N}{df(t)}",
+    "symbol": "w = f ln(N/df)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Information Retrieval",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "f(t,d)",
+        "bedeutung": "Nichtnegative ganze Anzahl der Termvorkommen im betrachteten Dokument",
+        "einheit": "1"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "Positive ganze Anzahl der Korpusdokumente",
+        "einheit": "1"
+      },
+      {
+        "symbol": "df(t)",
+        "bedeutung": "Ganze Anzahl der Dokumente mit mindestens einem Termvorkommen, von 1 bis N",
+        "einheit": "1"
+      },
+      {
+        "symbol": "w",
+        "bedeutung": "Unnormalisiertes Gewicht des einzelnen Terms",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "scikit-learn TfidfTransformer: exact weighting, smoothing, sublinear_tf and norm definitions",
+      "Stanford Introduction to Information Retrieval: TF-IDF weighting"
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html",
+      "https://nlp.stanford.edu/IR-book/html/htmledition/tf-idf-weighting-1.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/tf-idf-gewichtung"
+  },
+  {
+    "slug": "bm25-ranking",
+    "name": "Okapi BM25-Ranking",
+    "latex": "S(D,Q)=\\sum_{\\substack{t\\in Q\\\\f(t,D)>0}}I(t)\\frac{f(t,D)(k_1+1)}{f(t,D)+k_1(1-b+bL_D/\\overline L)}",
+    "symbol": "BM25(D,Q) = ∑ s(t,D)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Information Retrieval",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "N, df(t)",
+        "bedeutung": "Korpusdokumente und Dokumente mit dem Term; 0≤df≤N",
+        "einheit": "1"
+      },
+      {
+        "symbol": "f(t,D)",
+        "bedeutung": "Termvorkommen im Dokument; 0≤f≤L und f>0 erfordert df>0",
+        "einheit": "1"
+      },
+      {
+        "symbol": "L_D, L̄",
+        "bedeutung": "Dokumentlänge und positive mittlere Länge desselben Korpusfelds",
+        "einheit": "1"
+      },
+      {
+        "symbol": "k₁",
+        "bedeutung": "Nichtnegativer Parameter der Termhäufigkeitssättigung",
+        "einheit": "1"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Längenkorrekturparameter zwischen 0 und 1",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "Elastic: Similarity in Elasticsearch, BM25 positive IDF and numerator convention",
+      "Elastic: Practical BM25, algorithm variables",
+      "OpenSearch: keyword search and BM25 normalization from version3.0"
+    ],
+    "quellenLinks": [
+      "https://www.elastic.co/blog/found-similarity-in-elasticsearch",
+      "https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables",
+      "https://docs.opensearch.org/latest/search-plugins/keyword-search/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bm25-ranking"
+  },
+  {
+    "slug": "pagerank-iteration",
+    "name": "PageRank mit Dämpfung",
+    "latex": "r=\\alpha P^T r+(1-\\alpha)v",
+    "symbol": "r = αPᵀr + (1−α)v",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphen und Netzwerke",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "r",
+        "bedeutung": "PageRank-Vektor",
+        "einheit": "Wahrscheinlichkeitsverteilung"
+      },
+      {
+        "symbol": "P",
+        "bedeutung": "Spaltenstochastische Übergangsmatrix nach Behandlung von Sackgassen",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "α",
+        "bedeutung": "Dämpfungswahrscheinlichkeit für Link-Folge",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "v",
+        "bedeutung": "Teleportations- oder Personalisierungsverteilung",
+        "einheit": "Wahrscheinlichkeitsverteilung"
+      }
+    ],
+    "quellen": [
+      "Stanford CS224W course notes, PageRank."
+    ],
+    "quellenLinks": [
+      "https://snap-stanford.github.io/cs224w-notes/network-methods/pagerank"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/pagerank-iteration"
+  },
+  {
+    "slug": "littlesches-gesetz-warteschlange",
+    "name": "Littlesches Gesetz für Warteschlangen",
+    "latex": "L=\\lambda W",
+    "symbol": "L = λ·W",
+    "kategorie": "informatik",
+    "kapitel": "info-rechnerleistung",
+    "unterkategorie": "Leistungsanalyse und Warteschlangen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "L",
+        "bedeutung": "Mittlere Anzahl von Aufträgen im System",
+        "einheit": "Aufträge"
+      },
+      {
+        "symbol": "λ",
+        "bedeutung": "Langfristiger mittlerer Durchsatz",
+        "einheit": "Aufträge/s"
+      },
+      {
+        "symbol": "W",
+        "bedeutung": "Mittlere Zeit eines Auftrags im System",
+        "einheit": "s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 1.203J, Lecture 5: Queueing Systems and Little’s Law."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/1-203j-logistical-and-transportation-planning-methods-fall-2006/resources/lec5/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/littlesches-gesetz-warteschlange"
+  },
+  {
+    "slug": "mm1-warteschlange-auslastung",
+    "name": "M/M/1-Warteschlange: Auslastung und Verweildauer",
+    "latex": "\\rho=\\lambda/\\mu,\\quad W=1/(\\mu-\\lambda)",
+    "symbol": "ρ = λ/μ; W = 1/(μ−λ)",
+    "kategorie": "informatik",
+    "kapitel": "info-rechnerleistung",
+    "unterkategorie": "Leistungsanalyse und Warteschlangen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "λ",
+        "bedeutung": "Ankunftsrate",
+        "einheit": "Aufträge/s"
+      },
+      {
+        "symbol": "μ",
+        "bedeutung": "Bedienrate",
+        "einheit": "Aufträge/s"
+      },
+      {
+        "symbol": "ρ",
+        "bedeutung": "Auslastung der Bedienungsstelle",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "W",
+        "bedeutung": "Mittlere Zeit im System inklusive Warten und Bedienung",
+        "einheit": "s"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 1.203J, Lecture 5: Markovian queues and M/M/1."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/1-203j-logistical-and-transportation-planning-methods-fall-2006/resources/lec5/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/mm1-warteschlange-auslastung"
+  },
+  {
+    "slug": "levenshtein-editierdistanz",
+    "name": "Levenshtein-Editierdistanz",
+    "latex": "D(i,j)=\\min\\{D(i-1,j)+1,D(i,j-1)+1,D(i-1,j-1)+[a_i\\ne b_j]\\}",
+    "symbol": "D(i,j) = min(D↑+1, D←+1, D↖+[aᵢ≠bⱼ])",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Datenstrukturen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "D(i,j)",
+        "bedeutung": "Minimale Distanz der Ausgangs- und Zielpräfixe mit Längen i und j",
+        "einheit": "Anzahl Operationen"
+      },
+      {
+        "symbol": "aᵢ, bⱼ",
+        "bedeutung": "Codepunkte an den jeweils letzten Positionen der betrachteten Präfixe",
+        "einheit": "Zeichen"
+      },
+      {
+        "symbol": "[aᵢ≠bⱼ]",
+        "bedeutung": "Ersetzungskosten: eins bei verschiedenen Codepunkten, sonst null",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "NIST Dictionary of Algorithms and Data Structures: Levenshtein distance",
+      "MIT6.006 Spring2020 Recitation16: edit distance",
+      "Unicode Standard Annex15: Unicode normalization forms"
+    ],
+    "quellenLinks": [
+      "https://xlinux.nist.gov/dads/HTML/Levenshtein.html",
+      "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/mit6_006s20_r16/",
+      "https://www.unicode.org/reports/tr15/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/levenshtein-editierdistanz"
+  },
+  {
+    "slug": "nyquist-shannon-abtastgrenze",
+    "name": "Nyquist-Shannon-Abtastgrenze",
+    "latex": "f_s>2f_{max}",
+    "symbol": "Abtastfrequenz fs > 2 · maximale Signalfrequenz fmax",
+    "kategorie": "informatik",
+    "kapitel": "info-digitale-signale",
+    "unterkategorie": "Signale und digitale Systeme",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "fₛ",
+        "bedeutung": "Abtastfrequenz",
+        "einheit": "Hz"
+      },
+      {
+        "symbol": "fmax",
+        "bedeutung": "Höchste enthaltene Signalfrequenz",
+        "einheit": "Hz"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.003, Signals and Systems, sampling and reconstruction lecture materials."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/pages/lecture-notes/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/nyquist-shannon-abtastgrenze"
+  },
+  {
+    "slug": "diskrete-fouriertransformation",
+    "name": "Diskrete Fourier-Transformation (DFT)",
+    "latex": "X_k=\\sum_{n=0}^{N-1}x_n e^{-j2\\pi kn/N}",
+    "symbol": "X[k] = Σ x[n]·e^(−j2πkn/N)",
+    "kategorie": "informatik",
+    "kapitel": "info-digitale-signale",
+    "unterkategorie": "Signale und digitale Systeme",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "xₙ",
+        "bedeutung": "Abgetastete Eingangswerte",
+        "einheit": "Einheit des Signals"
+      },
+      {
+        "symbol": "Xₖ",
+        "bedeutung": "Komplexer Spektralkoeffizient am Bin k",
+        "einheit": "Signal-Einheit · Anzahl"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "Anzahl der Abtastwerte",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "j",
+        "bedeutung": "Imaginäre Einheit",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "SciPy User Guide, Discrete Fourier transforms (scipy.fft)."
+    ],
+    "quellenLinks": [
+      "https://docs.scipy.org/doc/scipy/tutorial/fft.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/diskrete-fouriertransformation"
+  },
+  {
+    "slug": "rsa-modulare-potenz",
+    "name": "RSA-Verschlüsselung: modulare Potenz",
+    "latex": "c\\equiv m^e\\pmod n,\\quad m\\equiv c^d\\pmod n",
+    "symbol": "c = mᵉ mod n; m = cᵈ mod n",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Kryptographie und Sicherheit",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "m",
+        "bedeutung": "Nachrichtenrepräsentant im Bereich \\(0\\le{}m<n\\)",
+        "einheit": "Restklasse modulo n"
+      },
+      {
+        "symbol": "c",
+        "bedeutung": "Chiffrat",
+        "einheit": "Restklasse modulo n"
+      },
+      {
+        "symbol": "e,d",
+        "bedeutung": "Öffentlicher beziehungsweise privater Exponent",
+        "einheit": "ganze Zahl"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Modul, typischerweise Produkt großer Primzahlen",
+        "einheit": "ganze Zahl"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.042J, Recitation 5: Exponentiation and Modular Arithmetic (RSA)."
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/a03580fed17b49e312157151e4a8602d_MIT6_042JF10_rec05_sol.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/rsa-modulare-potenz"
+  },
+  {
+    "slug": "faltungsoutput-dimension",
+    "name": "Ausgabedimension einer Faltung",
+    "latex": "H_{out}=\\left\\lfloor\\frac{H_{in}+2p-d(k-1)-1}{s}+1\\right\\rfloor",
+    "symbol": "Hout = floor((Hin+2p−d(k−1)−1)/s+1)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Bildverarbeitung",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Hin",
+        "bedeutung": "Eingabehöhe oder -breite",
+        "einheit": "Rasterzellen"
+      },
+      {
+        "symbol": "k",
+        "bedeutung": "Kernelgröße",
+        "einheit": "Rasterzellen"
+      },
+      {
+        "symbol": "p",
+        "bedeutung": "Padding pro Seite",
+        "einheit": "Rasterzellen"
+      },
+      {
+        "symbol": "s",
+        "bedeutung": "Stride",
+        "einheit": "Rasterzellen"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Dilatation",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "Stanford CS231n, Convolutional Neural Networks: convolution dimension notes."
+    ],
+    "quellenLinks": [
+      "https://cs231n.github.io/convolutional-networks/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/faltungsoutput-dimension"
+  },
+  {
+    "slug": "gini-impurity-klassifikation",
+    "name": "Gini-Verunreinigung eines Klassifikationsknotens",
+    "latex": "G=1-\\sum_{i=1}^{K}p_i^2",
+    "symbol": "G = 1 − Σ pᵢ²",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Klassifikation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "G",
+        "bedeutung": "Gini-Unreinheit des Knotens",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "pᵢ",
+        "bedeutung": "Anteil der Klasse i im Knoten",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Anzahl betrachteter Klassen",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, Decision trees: Gini impurity criterion."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/tree.html#classification-criteria"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/gini-impurity-klassifikation"
+  },
+  {
+    "slug": "binaerer-log-loss",
+    "name": "Binärer Log-Loss",
+    "latex": "L=-\\frac1N\\sum_{j=1}^{N}[y_j\\ln(p_j)+(1-y_j)\\ln(1-p_j)]",
+    "symbol": "L = mean binary cross-entropy",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Klassifikation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "yⱼ",
+        "bedeutung": "Wahres binäres Label",
+        "einheit": "0 oder 1"
+      },
+      {
+        "symbol": "pⱼ",
+        "bedeutung": "Vorhergesagte Wahrscheinlichkeit für Label 1",
+        "einheit": "0 bis 1"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "Anzahl ausgewerteter Beispiele",
+        "einheit": "Beispiele"
+      }
+    ],
+    "quellen": [
+      "scikit-learn API Reference, log_loss."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/binaerer-log-loss"
+  },
+  {
+    "slug": "informationsgewinn-entscheidungsbaum",
+    "name": "Informationsgewinn eines Entscheidungsbaum-Splits",
+    "latex": "IG(Y;S)=H(Y)-\\sum_{v\\in S}P(v)H(Y|S=v)",
+    "symbol": "IG = H(Y) − gewichtete Kinderentropie",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Klassifikation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Y",
+        "bedeutung": "Klassenlabel der Beispiele am aktuellen Knoten",
+        "einheit": "diskrete Zufallsvariable"
+      },
+      {
+        "symbol": "S",
+        "bedeutung": "Kandidatensplit mit möglichen Kindwerten v",
+        "einheit": "diskrete Aufteilung"
+      },
+      {
+        "symbol": "H(Y)",
+        "bedeutung": "Labelentropie vor dem Split",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "P(v)",
+        "bedeutung": "Anteil der Beispiele im Kind v",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "H(Y|S=v)",
+        "bedeutung": "Labelentropie im Kind v",
+        "einheit": "Bit"
+      }
+    ],
+    "quellen": [
+      "OpenStax, Principles of Data Science, §6.4 Decision Trees: entropy and information gain (Formel-/Fachquelle).",
+      "ACM/IEEE-CS/AAAI, CS2023 AI Knowledge Area, supervised learning and decision trees (Curriculumnachweis; keine Formelherleitung)."
+    ],
+    "quellenLinks": [
+      "https://openstax.org/books/principles-data-science/pages/6-4-decision-trees",
+      "https://csed.acm.org/ai-cs-core/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/informationsgewinn-entscheidungsbaum"
+  },
+  {
+    "slug": "crc-pruefsumme-polynomrest",
+    "name": "CRC-Prüfsumme als Polynomrest über GF(2)",
+    "latex": "R(x)=(x^rM(x))\\bmod G(x),\\quad C(x)=x^rM(x)+R(x)",
+    "symbol": "CRC = Rest der Polynomdivision über GF(2)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Codierung und digitale Kommunikation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "M(x)",
+        "bedeutung": "Nachrichtenpolynom über GF(2)",
+        "einheit": "Bitpolynom"
+      },
+      {
+        "symbol": "G(x)",
+        "bedeutung": "Generatorpolynom vom Grad r mit konstantem Term 1",
+        "einheit": "Bitpolynom"
+      },
+      {
+        "symbol": "r",
+        "bedeutung": "Grad des Generatorpolynoms und Zahl angehängter Prüfbits",
+        "einheit": "Bitanzahl"
+      },
+      {
+        "symbol": "R(x)",
+        "bedeutung": "Rest von xʳM(x) bei Division durch G(x)",
+        "einheit": "Bitpolynom"
+      },
+      {
+        "symbol": "C(x)",
+        "bedeutung": "Zu übertragendes Codewort",
+        "einheit": "Bitfolge"
+      }
+    ],
+    "quellen": [
+      "IETF RFC 9260, Appendix A, Cyclic Redundancy Check (CRC32c), algorithm and polynomial remainder (Fachquelle).",
+      "ACM/IEEE-CS/AAAI, CS2023 Networking and Communication Knowledge Area (Curriculumnachweis; keine Formelherleitung)."
+    ],
+    "quellenLinks": [
+      "https://www.rfc-editor.org/rfc/rfc9260.html#appendix-A",
+      "https://csed.acm.org/networking-and-communication/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/crc-pruefsumme-polynomrest"
+  },
+  {
+    "slug": "bandbreite-latenz-bandbreitenverzoegerungsprodukt",
+    "name": "Bandbreiten-Verzögerungs-Produkt (BDP)",
+    "latex": "BDP=R\\,RTT",
+    "symbol": "BDP = Pfadbandbreite × Round-Trip Time",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Netzwerke und Kommunikation",
+    "bildungsniveaus": [
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "grundlegend",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "R",
+        "bedeutung": "Engpassbandbreite des betrachteten Pfads",
+        "einheit": "bit/s"
+      },
+      {
+        "symbol": "RTT",
+        "bedeutung": "Round-Trip Time unter den betrachteten Bedingungen",
+        "einheit": "s"
+      },
+      {
+        "symbol": "BDP",
+        "bedeutung": "Datenmenge, die dem Produkt aus Rate und Umlaufzeit entspricht",
+        "einheit": "bit"
+      }
+    ],
+    "quellen": [
+      "IETF RFC 6349, §1.2 and §3.3, TCP throughput testing and bandwidth-delay product (Fachquelle).",
+      "ACM/IEEE-CS/AAAI, CS2023 Networking and Communication Knowledge Area: performance and transport protocols (Curriculumnachweis; keine Formelherleitung)."
+    ],
+    "quellenLinks": [
+      "https://www.rfc-editor.org/rfc/rfc6349.html",
+      "https://csed.acm.org/networking-and-communication/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bandbreite-latenz-bandbreitenverzoegerungsprodukt"
+  },
+  {
+    "slug": "bplus-baum-indexierung",
+    "name": "B⁺-Baum: Höhe und Indexzugriffe",
+    "latex": "h=O(\\log_{\\lceil m/2\\rceil} n)",
+    "symbol": "Höhe h = O(log fanout n)",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Datenstrukturen und Datenbanken",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl gespeicherter Schlüssel beziehungsweise Datensätze",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Maximale Zahl von Kindern eines inneren Knotens",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Baumhöhe in Ebenen",
+        "einheit": "Ebenen"
+      }
+    ],
+    "quellen": [
+      "OpenDSA, §17.6.1.1 B+ Trees and §17.6.1.2 B-Tree Analysis.",
+      "ACM/IEEE-CS/AAAI, CS2023, Algorithmic Foundations: trees, search and complexity; curriculum relevance, not a specific B+ tree mandate."
+    ],
+    "quellenLinks": [
+      "https://opendsa-server.cs.vt.edu/ODSA/Books/pubbook/odsa-all/fall-2019/Public_Instance/html/BTree.html",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/bplus-baum-indexierung"
+  },
+  {
+    "slug": "hash-tabellen-lastfaktor-erwartungswert",
+    "name": "Hash-Tabelle: Lastfaktor und erwartete Suchzeit",
+    "latex": "\\alpha=\\frac{n}{m},\\quad E[T_{\\mathrm{suche}}]=\\Theta(1+\\alpha)",
+    "symbol": "α = n/m; erwartete Suche Θ(1+α)",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Datenstrukturen und Algorithmen",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n",
+        "bedeutung": "Zahl gespeicherter Schlüssel",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "m",
+        "bedeutung": "Zahl der Tabellenplätze oder Buckets",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "α",
+        "bedeutung": "mittlere Zahl von Schlüsseln je Bucket, \\(\\frac{n}{m}\\)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "erwartete Suchkosten bei Verkettung",
+        "einheit": "Schlüsselprüfungen"
+      }
+    ],
+    "quellen": [
+      "MIT OpenCourseWare 6.006, Lecture 8: Hashing I, simple uniform hashing and load factor.",
+      "ACM/IEEE-CS/AAAI, CS2023, Software Development Fundamentals: hash tables/maps, collision resolution and complexity."
+    ],
+    "quellenLinks": [
+      "https://www.ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/d3e4d64266d481c74c9e7c15e09999fe_MIT6_006F11_lec08.pdf",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hash-tabellen-lastfaktor-erwartungswert"
+  },
+  {
+    "slug": "k-means-inertia-zielfunktion",
+    "name": "K-Means-Zielfunktion (Inertia)",
+    "latex": "J=\\sum_{j=1}^{K}\\sum_{x_i\\in C_j}\\|x_i-\\mu_j\\|_2^2",
+    "symbol": "J = Summe quadrierter Abstände zu Zentren",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Clustering",
+    "bildungsniveaus": [
+      "sek2",
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "xᵢ",
+        "bedeutung": "Datenvektor i",
+        "einheit": "Merkmalseinheiten"
+      },
+      {
+        "symbol": "Cⱼ",
+        "bedeutung": "Cluster j",
+        "einheit": "Menge"
+      },
+      {
+        "symbol": "μⱼ",
+        "bedeutung": "arithmetischer Mittelwert des Clusters j",
+        "einheit": "Merkmalseinheiten"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "vorgegebene Zahl der Cluster",
+        "einheit": "Anzahl"
+      },
+      {
+        "symbol": "J",
+        "bedeutung": "within-cluster sum of squares / inertia",
+        "einheit": "quadrierte Merkmalseinheiten"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, §2.3.2 K-means: inertia / within-cluster sum of squares.",
+      "ACM/IEEE-CS/AAAI CS2023, AI Core: Machine Learning, unsupervised learning and clustering."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/clustering.html#k-means",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/k-means-inertia-zielfunktion"
+  },
+  {
+    "slug": "pca-hauptkomponentenanalyse",
+    "name": "Hauptkomponentenanalyse (PCA)",
+    "latex": "S v_k=\\lambda_k v_k,\\quad z_k=(x-\\bar{x})^T v_k",
+    "symbol": "Eigenvektoren der Kovarianzmatrix; Projektion zₖ",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Datenanalyse und lineare Algebra",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "x",
+        "bedeutung": "Merkmalsvektor einer Beobachtung",
+        "einheit": "Merkmalseinheiten"
+      },
+      {
+        "symbol": "x̄",
+        "bedeutung": "Mittelwertvektor der Trainingsdaten",
+        "einheit": "Merkmalseinheiten"
+      },
+      {
+        "symbol": "S",
+        "bedeutung": "Kovarianzmatrix zentrierter Trainingsdaten",
+        "einheit": "quadrierte Merkmalseinheiten"
+      },
+      {
+        "symbol": "vₖ",
+        "bedeutung": "k-ter normierter Hauptachsen-Eigenvektor",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "λₖ",
+        "bedeutung": "erklärte Varianz entlang vₖ",
+        "einheit": "quadrierte Merkmalseinheiten"
+      },
+      {
+        "symbol": "zₖ",
+        "bedeutung": "Koordinate der zentrierten Beobachtung auf vₖ",
+        "einheit": "Merkmalseinheit"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, §2.5.1.1 Exact PCA and probabilistic interpretation.",
+      "ACM/IEEE-CS/AAAI CS2023, AI Core: Machine Learning and data preprocessing."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/pca-hauptkomponentenanalyse"
+  },
+  {
+    "slug": "naive-bayes-klassifikation",
+    "name": "Naive-Bayes-Klassifikation",
+    "latex": "\\hat{y}=\\arg\\max_y P(y)\\prod_{i=1}^{d}P(x_i\\mid y)",
+    "symbol": "Vorhersage ∝ Klassenprior × bedingte Merkmalswahrscheinlichkeiten",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Wahrscheinlichkeit",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "y",
+        "bedeutung": "Kandidatenklasse",
+        "einheit": "Klassenlabel"
+      },
+      {
+        "symbol": "xᵢ",
+        "bedeutung": "Merkmal i der Beobachtung",
+        "einheit": "Merkmalswert"
+      },
+      {
+        "symbol": "P(y)",
+        "bedeutung": "Priorwahrscheinlichkeit der Klasse",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "P(xᵢ|y)",
+        "bedeutung": "Likelihood des Merkmals bei Klasse y",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "d",
+        "bedeutung": "Zahl der Merkmale",
+        "einheit": "Anzahl"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, §1.9 Naive Bayes: conditional-independence assumption and classification rule.",
+      "ACM/IEEE-CS/AAAI CS2023, AI Core: Naive Bayes and probabilistic reasoning."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/naive_bayes.html",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/naive-bayes-klassifikation"
+  },
+  {
+    "slug": "ridge-regression-l2",
+    "name": "Ridge-Regression (L₂-Regularisierung)",
+    "latex": "\\hat{\\beta}=\\arg\\min_{\\beta}\\left(\\|y-X\\beta\\|_2^2+\\lambda\\|\\beta\\|_2^2\\right)",
+    "symbol": "Kleinste Quadrate + λ · Koeffizientenquadratsumme",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Regression",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "X",
+        "bedeutung": "Designmatrix der Merkmale",
+        "einheit": "Merkmalswerte"
+      },
+      {
+        "symbol": "y",
+        "bedeutung": "Zielvektor",
+        "einheit": "Zieleinheit"
+      },
+      {
+        "symbol": "β",
+        "bedeutung": "Regressionskoeffizienten",
+        "einheit": "Zieleinheit je Merkmalseinheit"
+      },
+      {
+        "symbol": "λ",
+        "bedeutung": "nichtnegative Regularisierungsstärke",
+        "einheit": "modell- und Skalierungskonvention abhängig"
+      },
+      {
+        "symbol": "||y−Xβ||²",
+        "bedeutung": "Residualquadratsumme",
+        "einheit": "Zieleinheit²"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, §1.1.2.1 Ridge regression: penalized residual sum of squares.",
+      "ACM/IEEE-CS/AAAI CS2023, AI Core: regression and regularization."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/ridge-regression-l2"
+  },
+  {
+    "slug": "lineare-svm-hinge-loss",
+    "name": "Lineare SVM und Hinge-Loss",
+    "latex": "L_i=\\max(0,1-y_i(w^Tx_i+b))",
+    "symbol": "Hinge-Loss = max(0, 1 − Label · Entscheidung)",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Klassifikation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "xᵢ",
+        "bedeutung": "Merkmalsvektor des Beispiels",
+        "einheit": "Merkmalswerte"
+      },
+      {
+        "symbol": "yᵢ",
+        "bedeutung": "binäres Label −1 oder +1",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "w,b",
+        "bedeutung": "Gewichtsvektor und Bias der Entscheidungsgrenze",
+        "einheit": "skalierungsabhängig"
+      },
+      {
+        "symbol": "Lᵢ",
+        "bedeutung": "Hinge-Verlust des Beispiels",
+        "einheit": "dimensionslos"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, §1.4 Support Vector Machines; binary linear SVM objective.",
+      "ACM/IEEE-CS/AAAI CS2023, AI Core: supervised classification and regularization."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/svm.html#mathematical-formulation",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/lineare-svm-hinge-loss"
+  },
+  {
+    "slug": "logistische-regression-bernoulli-likelihood",
+    "name": "Logistische Regression: Bernoulli-Likelihood",
+    "latex": "\\begin{aligned}p_i&=\\sigma(w^Tx_i+b)\\\\-\\ell&=-\\sum_i[y_i\\log p_i+(1-y_i)\\log(1-p_i)]\\end{aligned}",
+    "symbol": "Bernoulli negative log-likelihood",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Maschinelles Lernen und Klassifikation",
+    "bildungsniveaus": [
+      "hochschulbruecke",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "xᵢ",
+        "bedeutung": "Merkmalsvektor der Beobachtung i",
+        "einheit": "Merkmalswerte"
+      },
+      {
+        "symbol": "w,b",
+        "bedeutung": "Gewichte und Achsenabschnitt",
+        "einheit": "skalierungsabhängig"
+      },
+      {
+        "symbol": "pᵢ",
+        "bedeutung": "Modellwahrscheinlichkeit für \\(y_i=1\\)",
+        "einheit": "dimensionslos"
+      },
+      {
+        "symbol": "yᵢ",
+        "bedeutung": "beobachtetes binäres Label",
+        "einheit": "0 oder 1"
+      },
+      {
+        "symbol": "ℓ",
+        "bedeutung": "Bernoulli-Log-Likelihood",
+        "einheit": "nats bei ln"
+      }
+    ],
+    "quellen": [
+      "scikit-learn User Guide, §1.1 Linear Models: Logistic regression and log loss.",
+      "ACM/IEEE-CS/AAAI CS2023, AI Core: supervised classification, regression and model fitting."
+    ],
+    "quellenLinks": [
+      "https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression",
+      "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/logistische-regression-bernoulli-likelihood"
+  },
+  {
+    "slug": "endliche-automaten-regulaere-sprachen",
+    "name": "Endliche Automaten und reguläre Sprachen",
+    "latex": "\\delta^*(q,wa)=\\delta(\\delta^*(q,w),a),\\qquad w\\in L\\iff\\delta^*(q_0,w)\\in F",
+    "symbol": "Wort akzeptiert ⇔ Endzustand in F",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Endliche Automaten und reguläre Sprachen",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "Q",
+        "bedeutung": "endliche Zustandsmenge",
+        "einheit": "1"
+      },
+      {
+        "symbol": "Σ",
+        "bedeutung": "endliches Eingabealphabet",
+        "einheit": "1"
+      },
+      {
+        "symbol": "δ",
+        "bedeutung": "Übergangsfunktion",
+        "einheit": "1"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "akzeptierende Zustände",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "Carnegie Mellon15-453, L. Blum, Lecture1 Handouts,2014, pp.4–6: DFA definition, acceptance and parity invariant"
+    ],
+    "quellenLinks": [
+      "https://www.cs.cmu.edu/~lblum/flac/Handouts_pdf/Lecture1-handouts.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/endliche-automaten-regulaere-sprachen"
+  },
+  {
+    "slug": "relationale-algebra-datenbanken",
+    "name": "Relationale Algebra: Selektion, Projektion und Join",
+    "latex": "R\\bowtie_{\\theta}S=\\sigma_{\\theta}(R\\times S),\\qquad|R\\bowtie_{\\theta}S|\\leq|R|\\,|S|",
+    "symbol": "Join = passende Tupelpaare auswählen",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Relationale Algebra",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "R,S",
+        "bedeutung": "Eingaberelationen",
+        "einheit": "1"
+      },
+      {
+        "symbol": "σ",
+        "bedeutung": "Selektion nach einer Bedingung",
+        "einheit": "1"
+      },
+      {
+        "symbol": "π",
+        "bedeutung": "Projektion auf Attribute",
+        "einheit": "1"
+      },
+      {
+        "symbol": "θ",
+        "bedeutung": "festgelegte Joinbedingung",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "PostgreSQL18 Documentation,2.6 Joins Between Tables;7.3.3 DISTINCT"
+    ],
+    "quellenLinks": [
+      "https://www.postgresql.org/docs/current/tutorial-join.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/relationale-algebra-datenbanken"
+  },
+  {
+    "slug": "algorithmische-grundmuster-sortieren",
+    "name": "Sortierverfahren: Invarianten und Laufzeit",
+    "latex": "T_{\\mathrm{merge}}(n)=2T(n/2)+\\Theta(n),\\qquad T_{\\mathrm{insertion,worst}}(n)=\\Theta(n^2)",
+    "symbol": "Sortiertheit + gleiche Elemente + begründete Laufzeit",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Sortierverfahren",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl der Elemente",
+        "einheit": "1"
+      },
+      {
+        "symbol": "i",
+        "bedeutung": "nächste einzufügende Position",
+        "einheit": "1"
+      },
+      {
+        "symbol": "T(n)",
+        "bedeutung": "Kosten im angegebenen Modell",
+        "einheit": "Operationen"
+      }
+    ],
+    "quellen": [
+      "Cornell CS2110,7 Sorting Algorithms, Insertion Sort and Merge Sort"
+    ],
+    "quellenLinks": [
+      "https://courses.cs.cornell.edu/cs2110/2026fa/lectures/lec07/"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/algorithmische-grundmuster-sortieren"
+  },
+  {
+    "slug": "zahlensysteme-stellenwert",
+    "name": "Zahlensysteme: Binär, Dezimal und Hexadezimal",
+    "latex": "N=\\sum_{i=0}^{n-1}d_i b^i,\\quad0\\le d_i<b,\\qquad0\\le N\\le b^n-1",
+    "symbol": "N = Σ dᵢbⁱ",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Zahlensysteme",
+    "bildungsniveaus": [
+      "sek1",
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "b",
+        "bedeutung": "Basis des Stellenwertsystems",
+        "einheit": "1"
+      },
+      {
+        "symbol": "di",
+        "bedeutung": "Ziffer an Stelle i",
+        "einheit": "1"
+      },
+      {
+        "symbol": "n",
+        "bedeutung": "Anzahl der Stellen",
+        "einheit": "1"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "nichtnegativer ganzzahliger Wert",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "Stanford CS101, Bits and Bytes; positional integer representation"
+    ],
+    "quellenLinks": [
+      "https://web.stanford.edu/class/cs101/bits-bytes.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/zahlensysteme-stellenwert"
+  },
+  {
+    "slug": "datenmenge-bild-audio",
+    "name": "Datenmenge unkomprimierter Bilder und Audiodaten",
+    "latex": "D_{\\mathrm{Bild}}=WHb,\\qquad D_{\\mathrm{PCM}}=f_sTCb",
+    "symbol": "Bild: W·H·b Bit; PCM: fs·T·C·b Bit",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Datenmenge unkomprimierter Bilder und Audiodaten",
+    "bildungsniveaus": [
+      "sek1",
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "W,H",
+        "bedeutung": "Breite und Höhe des Rasters",
+        "einheit": "px"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Bits je Pixel oder je Sample und Kanal",
+        "einheit": "bit"
+      },
+      {
+        "symbol": "fs",
+        "bedeutung": "Audio-Abtastrate je Kanal",
+        "einheit": "Hz"
+      },
+      {
+        "symbol": "T",
+        "bedeutung": "Dauer",
+        "einheit": "s"
+      },
+      {
+        "symbol": "C",
+        "bedeutung": "Kanalzahl",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "Stanford CS101 Digital Images; Python standard library wave documentation, channel/sample/frame definitions"
+    ],
+    "quellenLinks": [
+      "https://web.stanford.edu/class/cs101/image-1-introduction.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/datenmenge-bild-audio"
+  },
+  {
+    "slug": "ipv4-subnetting",
+    "name": "IPv4-Subnetting: Präfix, Netz und Hostadressen",
+    "latex": "h=32-p,\\qquad N_{\\mathrm{Adressen}}=2^h",
+    "symbol": "Hostbits h=32−p; Blockgröße2ʰ",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "IPv4-Subnetting",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor",
+      "fachvertiefung"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "p",
+        "bedeutung": "Präfixlänge",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "h",
+        "bedeutung": "Anzahl freier Hostbits",
+        "einheit": "Bit"
+      },
+      {
+        "symbol": "N",
+        "bedeutung": "Adressen im Block",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "RFC3021 Using31-Bit Prefixes on IPv4 Point-to-Point Links; RFC4632 CIDR"
+    ],
+    "quellenLinks": [
+      "https://www.rfc-editor.org/rfc/rfc3021"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/ipv4-subnetting"
+  },
+  {
+    "slug": "graphen-knoten-kanten-euler",
+    "name": "Graphen: Knotengrade und Eulersche Flächenformel",
+    "latex": "\\sum_{v\\in V}\\deg(v)=2|E|,\\qquad |V|-|E|+|F|=2",
+    "symbol": "Gradsumme2E; für zusammenhängende ebene Graphen V−E+F=2",
+    "kategorie": "informatik",
+    "kapitel": "info-algorithmen-darstellung",
+    "unterkategorie": "Graphen",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "V",
+        "bedeutung": "Knotenmenge oder ausdrücklich genannte Knotenanzahl",
+        "einheit": "1"
+      },
+      {
+        "symbol": "E",
+        "bedeutung": "Kantenmenge oder ausdrücklich genannte Kantenanzahl",
+        "einheit": "1"
+      },
+      {
+        "symbol": "F",
+        "bedeutung": "Flächen der ebenen Einbettung einschließlich außen",
+        "einheit": "1"
+      },
+      {
+        "symbol": "deg(v)",
+        "bedeutung": "Grad eines Knotens",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "MIT18.310 Planarity and Coloring,section2 Euler’s Formula; MIT Mathematics for Computer Science,Graph Theory"
+    ],
+    "quellenLinks": [
+      "https://math.mit.edu/classes/18.310/planarity_coloring.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/graphen-knoten-kanten-euler"
+  },
+  {
+    "slug": "perzeptron-kuenstliches-neuron",
+    "name": "Perzeptron: Gewichtung, Bias und Lernschritt",
+    "latex": "z=\\mathbf w^\\top\\mathbf x+b,\\qquad\\hat y=\\begin{cases}1&z\\ge0\\\\0&z<0\\end{cases}",
+    "symbol": "z = w·x + b; Ausgabe1 für z≥0",
+    "kategorie": "informatik",
+    "kapitel": "info-information-datenanalyse",
+    "unterkategorie": "Perzeptron",
+    "bildungsniveaus": [
+      "sek2",
+      "bachelor"
+    ],
+    "schwierigkeit": "fortgeschritten",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "x",
+        "bedeutung": "Eingabevektor",
+        "einheit": "modellabhängig"
+      },
+      {
+        "symbol": "w",
+        "bedeutung": "Gewichtsvektor",
+        "einheit": "zum Eingabemodell passend"
+      },
+      {
+        "symbol": "b",
+        "bedeutung": "Bias",
+        "einheit": "Einheit von z"
+      },
+      {
+        "symbol": "ŷ",
+        "bedeutung": "Klassenentscheidung",
+        "einheit": "0 oder1"
+      },
+      {
+        "symbol": "η",
+        "bedeutung": "positive Lernrate",
+        "einheit": "modellabhängig"
+      }
+    ],
+    "quellen": [
+      "Cornell CS4780,The Perceptron; Stanford Neural Networks,Neuron/XOR"
+    ],
+    "quellenLinks": [
+      "https://courses.cis.cornell.edu/cs4780/2023sp/lectures/lecturenote03.html"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/perzeptron-kuenstliches-neuron"
+  },
+  {
+    "slug": "praefixcodes-kraft-huffman",
+    "name": "Präfixcodes, Kraft-Ungleichung und Huffman",
+    "latex": "\\sum_i2^{-l_i}\\le1,\\qquad\\bar l=\\sum_i p_i l_i",
+    "symbol": "Kraftsumme Σ2⁻ˡ ≤ 1; mittlere Länge Σpl",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Präfixcodes, Kraft-Ungleichung und Huffman",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "lᵢ",
+        "bedeutung": "Länge des i-ten Codeworts",
+        "einheit": "bit/Symbol"
+      },
+      {
+        "symbol": "pᵢ",
+        "bedeutung": "Symbolwahrscheinlichkeit",
+        "einheit": "1"
+      },
+      {
+        "symbol": "K",
+        "bedeutung": "Kraftsumme",
+        "einheit": "1"
+      },
+      {
+        "symbol": "l̄",
+        "bedeutung": "erwartete Codewortlänge",
+        "einheit": "bit/Symbol"
+      }
+    ],
+    "quellen": [
+      "MIT18.200,Ankur Moitra,Huffman Codes,24April2024"
+    ],
+    "quellenLinks": [
+      "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec19.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/praefixcodes-kraft-huffman"
+  },
+  {
+    "slug": "hamming-code-fehlerkorrektur",
+    "name": "Hamming-Code(7,4): Codieren und Syndrom",
+    "latex": "s_1=b_1\\oplus b_3\\oplus b_5\\oplus b_7,\\quad s_2=b_2\\oplus b_3\\oplus b_6\\oplus b_7,\\quad s_4=b_4\\oplus b_5\\oplus b_6\\oplus b_7",
+    "symbol": "Fehlerposition j = s₁ + 2s₂ + 4s₄",
+    "kategorie": "informatik",
+    "kapitel": "info-information-codierung",
+    "unterkategorie": "Hamming-Code(7,4)",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "bⱼ",
+        "bedeutung": "empfangenes Bit an Positionj",
+        "einheit": "0/1"
+      },
+      {
+        "symbol": "s₁,s₂,s₄",
+        "bedeutung": "Prüfsyndrome der drei Gruppen",
+        "einheit": "0/1"
+      },
+      {
+        "symbol": "j",
+        "bedeutung": "Syndromindex,bei höchstens einem Fehler dessen Position",
+        "einheit": "1"
+      }
+    ],
+    "quellen": [
+      "MIT6.02,Fall2011,Chapter6:Coping with Bit Errors,Hamming position convention"
+    ],
+    "quellenLinks": [
+      "https://web.mit.edu/6.02/www/f2011/handouts/6.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/hamming-code-fehlerkorrektur"
+  },
+  {
+    "slug": "quantisierung-signal-rausch-verhaeltnis",
+    "name": "Quantisierung: Stufen, Fehler und Signal-Rausch-Verhältnis",
+    "latex": "\\Delta=\\frac{2A}{2^B},\\quad\\sigma_q^2\\simeq\\frac{\\Delta^2}{12},\\quad\\mathrm{SNR}_{dB}\\simeq20B\\log_{10}2+10\\log_{10}(3/2)",
+    "symbol": "Δ=2A/2ᴮ; SNR≈6,02B+1,76dB",
+    "kategorie": "informatik",
+    "kapitel": "info-digitale-signale",
+    "unterkategorie": "Quantisierung",
+    "bildungsniveaus": [
+      "bachelor"
+    ],
+    "schwierigkeit": "universitaet",
+    "abiturRelevant": false,
+    "variablen": [
+      {
+        "symbol": "B",
+        "bedeutung": "ganzzahlige Bitauflösung",
+        "einheit": "bit"
+      },
+      {
+        "symbol": "A",
+        "bedeutung": "positiver halber Vollbereich",
+        "einheit": "V"
+      },
+      {
+        "symbol": "Δ",
+        "bedeutung": "gleichförmige Quantisierungsstufe",
+        "einheit": "V"
+      },
+      {
+        "symbol": "σq",
+        "bedeutung": "RMS-Quantisierungsfehler im Rauschmodell",
+        "einheit": "V"
+      }
+    ],
+    "quellen": [
+      "Analog Devices,Walt Kester,MT-001:Quantization Noise andSNR"
+    ],
+    "quellenLinks": [
+      "https://www.analog.com/media/en/training-seminars/tutorials/mt-001.pdf"
+    ],
+    "url": "https://quanta-study.de/tafelwerk/quantisierung-signal-rausch-verhaeltnis"
+  }
+]
